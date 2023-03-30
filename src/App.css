@@ -1,6 +1,24 @@
 .App {
   text-align: center;
 }
+.allBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.navLink{
+  margin: 6px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.head{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
 
 .App-logo {
   height: 40vmin;
