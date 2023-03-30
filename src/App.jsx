@@ -9,6 +9,7 @@ function App() {
     <div className="allBox">
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<h1 className="head">Hello World</h1>}></Route>
           <Route path="Home" element={<Home />}></Route>
           <Route path="About" element={<About />}></Route>
           <Route path="Contact" element={<Contact />}></Route>
