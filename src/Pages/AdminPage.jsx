@@ -1,12 +1,14 @@
-import {useNavigate} from "react-router-dom";
-function About(){
+import { useNavigate } from "react-router-dom";
+import tired from "../asset/tired.png"
+function AdminPage() {
     const navigate = useNavigate();
-    return(
+    return (
         <>
-            <h1 className="name" style={{
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png"></img>
+            <h1 style={{
                 margin: "10px auto",
                 display: "flex",
-            }}>This is About page</h1>
+            }}>This is Admin Page</h1>
             <button style={{
                 margin: "5px auto",
                 display: "flex",
@@ -20,8 +22,9 @@ function About(){
                 width: "6%",
                 alignItems: "center",
                 justifyContent: "center",
-            }} onClick={() => navigate("/")}>Redirect</button>
+            }} onClick={() => navigate("/")}>Log out</button>
         </>
     );
-}
-export default About;
+  }
+  
+  export default AdminPage;

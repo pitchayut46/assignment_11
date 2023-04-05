@@ -1,12 +1,10 @@
-import {useParams } from 'react-router-dom';
-
+import { useParams } from "react-router-dom";
 function Profile() {
-    const { userId } = useParams();
+    const { id } = useParams();
     return(
-        <div>
-            <p>The Student ID of user is {userId}</p>
-        </div>
+        <>
+            <p>This Student ID of user is { id }</p>
+        </>
     );
 }
-
 export default Profile;

@@ -1,33 +1,40 @@
 .App {
   text-align: center;
 }
-.allBox {
+img{
+  width: 150px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(85, 85, 85, 0.2), 0 6px 20px 0 rgba(85, 85, 85, 0.2);
+}
+button{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: rgb(187, 145, 225);
+  border: none;
+  border-radius: 5px;
+  color: rgb(9, 9, 9);
+  width: 50px;
+  height: 30px;
+}
+.hn{
+  text-align: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
-
-.navLink{
-  margin: 6px;
-  font-size: 14px;
+.nav{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+  font-size: 10px;
   text-decoration: none;
-
 }
-
-.img_person .imag{
-  height: 40%;
-  margin: 0;
-  width: 150px;
-  height: 150px;
+a.active{
+  color: red;
 }
-
-.head{
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
